@@ -7,17 +7,6 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-			    objective
-			    {
-			        type CONTROL_N_PROVINCES_INCLUDING;
-			        total 3;
-
-                    province wh3_main_chaos_province_central_great_bastion;
-                    province wh3_main_chaos_province_eastern_great_bastion;
-					province wh3_main_chaos_province_western_great_bastion;
-			    }
-
-
 				objective
 				{
 					type CONTROL_N_PROVINCES_INCLUDING;
@@ -32,6 +21,16 @@ local missions = {
 					province wh3_main_chaos_province_warpstone_desert;
 					province wh3_main_chaos_province_wastelands_of_jinshen;
 				}
+
+			    objective
+			    {
+			        type CONTROL_N_PROVINCES_INCLUDING;
+			        total 3;
+
+                    province wh3_main_chaos_province_central_great_bastion;
+                    province wh3_main_chaos_province_eastern_great_bastion;
+					province wh3_main_chaos_province_western_great_bastion;
+			    }
 
 				payload
 				{
@@ -55,7 +54,16 @@ local missions = {
                     faction wh3_main_tze_oracles_of_tzeentch;
                     faction wh3_main_tze_sarthoraels_watchers;
 
+                    TODO
+
                     confederation_valid;
+                }
+
+				objective
+                {
+                    type CONSTRUCT_N_OF_A_BUILDING;
+
+                    TODO
                 }
 
 				payload
@@ -68,19 +76,14 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_3;
+			victory_type vco_victory_type_alternative_3_todo;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
                 {
-                    type DESTROY_FACTION;
-
-                    faction wh3_main_tze_oracles_of_tzeentch;
-                    faction wh3_main_tze_sarthoraels_watchers;
-
-                    confederation_valid;
+                    type TODO;
                 }
 
 				payload
