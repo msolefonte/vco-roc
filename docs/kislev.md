@@ -5,7 +5,8 @@
 * **Route I - United and Indivisible**
     * 
 * **Route II - From Kislev with Love**
-    * 
+    * Defeat factions:
+        * 
 * **Route III - Black Widow**
     *
 
@@ -26,3 +27,7 @@
     * 
 * **Route III - TODO**
     *
+    
+    
+Boris idea: "The Big Guy" or "You're a big guy" (for if you want a Dark Knight Rises reference), kill X amount of large entity units or defeat X amount of large entity lords.
+

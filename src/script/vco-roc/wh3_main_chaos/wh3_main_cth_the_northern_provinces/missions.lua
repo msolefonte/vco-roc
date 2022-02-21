@@ -2,7 +2,7 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_1_unification;
+			victory_type vco_victory_type_alternative_1_in_harmony;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -43,7 +43,7 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_2_threat_elimination;
+			victory_type vco_victory_type_alternative_2_cool_and_aloof;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
@@ -52,16 +52,33 @@ local missions = {
                 {
                     type DESTROY_FACTION;
 
-                    faction wh3_main_kho_exiles_of_khorne;
-
-                    faction wh3_main_dae_daemon_prince;
-
-                    faction wh3_main_nur_poxmakers_of_nurgle;
-
                     faction wh3_main_tze_oracles_of_tzeentch;
                     faction wh3_main_tze_sarthoraels_watchers;
 
-                    faction wh3_main_sla_seducers_of_slaanesh;
+                    confederation_valid;
+                }
+
+				payload
+				{
+					game_victory;
+				}
+			}
+		}
+    ]],
+    [[
+ 		mission
+		{
+			victory_type vco_victory_type_alternative_3;
+			key wh_main_long_victory;
+			issuer CLAN_ELDERS;
+			primary_objectives_and_payload
+			{
+				objective
+                {
+                    type DESTROY_FACTION;
+
+                    faction wh3_main_tze_oracles_of_tzeentch;
+                    faction wh3_main_tze_sarthoraels_watchers;
 
                     confederation_valid;
                 }

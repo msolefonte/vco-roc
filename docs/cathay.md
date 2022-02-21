@@ -18,7 +18,7 @@
 ### Zhao Ming: The Western Provinces
 
 * **Route I - Iron into Gold**
-    * Amass a total of 60k gold
+    * Amass a total of 480k gold (HAVE_AT_LEAST_X_MONEY)
     * TBD
 * **Route II - In Harmony**
     * Control The Great Bastion:
