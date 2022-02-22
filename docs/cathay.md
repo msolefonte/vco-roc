@@ -10,7 +10,7 @@
         * Central Great Bastion, Eastern Great Bastion and Western Great Bastion
 * **Route II - Cool and Aloof**
     * Destroy factions:
-        * Clan Eshin, Dissenter Lords of Jinshen, Rebel Lords of Nan-Yang, Oracles of Tzeentch and Sarthorael's Watchers
+        * Clan Eshin, Dissenter Lords of Jinshen, Rebel Lords of Nan-Yang and Sarthorael's Watchers
     * Build (The Great Bastion):
         * 3x Bastion Fortress
 * **Route III - Nan-Gau-style Chicken**

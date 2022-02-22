@@ -13,7 +13,7 @@ local missions = {
 					total 8;
 
 					province wh3_main_chaos_province_broken_lands_of_tian_li;
-					province wh3_main_chaos_province_celestial_riverlands,
+					province wh3_main_chaos_province_celestial_riverlands;
                     province wh3_main_chaos_province_forests_of_the_moon;
 					province wh3_main_chaos_province_gunpowder_road;
 					province wh3_main_chaos_province_imperial_road;
@@ -51,10 +51,12 @@ local missions = {
                 {
                     type DESTROY_FACTION;
 
-                    faction wh3_main_tze_oracles_of_tzeentch;
-                    faction wh3_main_tze_sarthoraels_watchers;
+                    faction wh2_main_skv_clan_eshin;
 
-                    TODO
+                    faction wh3_main_cth_rebel_lords_of_nan_yang;
+                    faction wh3_main_cth_dissenter_lords_of_jinshen;
+
+                    faction wh3_main_tze_sarthoraels_watchers;
 
                     confederation_valid;
                 }
@@ -62,8 +64,10 @@ local missions = {
 				objective
                 {
                     type CONSTRUCT_N_OF_A_BUILDING;
+                    faction wh3_main_cth_the_northern_provinces;
+                    total 3;
 
-                    TODO
+                    building_level wh3_main_cth_bastion_primary_5;
                 }
 
 				payload
@@ -76,20 +80,28 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_3_todo;
+			victory_type vco_victory_type_alternative_3_nan-gau-style_chicken;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 				objective
                 {
-                    type TODO;
+                    type DESTROY_FACTION;
+
+                    faction wh3_main_tze_all_seeing_eye;
+                    faction wh3_main_tze_broken_wheel;
+                    faction wh3_main_tze_flaming_scribes;
+                    faction wh3_main_tze_oracles_of_tzeentch;
+                    faction wh3_main_tze_sarthoraels_watchers;
+
+                    confederation_valid;
                 }
 
-				payload
-				{
-					game_victory;
-				}
+                payload
+                {
+                    game_victory;
+                }
 			}
 		}
     ]]
