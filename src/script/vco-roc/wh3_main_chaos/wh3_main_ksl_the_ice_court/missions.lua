@@ -2,14 +2,19 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_1_wololo;
+			victory_type vco_victory_type_alternative_1_united_and_indivisible;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 			    objective
 			    {
-			        type TODO;
+			        type TODO NOT_DONE_YET;
+			    }
+
+			    objective
+			    {
+			        type TODO NOT_DONE_YET;
 			    }
 
 				payload
@@ -22,14 +27,14 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_2_there_can_only_be_one;
+			victory_type vco_victory_type_alternative_2_from_kislev_with_love;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 			    objective
 			    {
-			        type TODO;
+			        type TODO NOT_DONE_YET;
 			    }
 
 				payload
@@ -42,14 +47,14 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_3_son_of_kislev;
+			victory_type vco_victory_type_alternative_3_the_red_room;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 			    objective
 			    {
-			        type TODO;
+			        type TODO FIXME;
 			    }
 
 				payload

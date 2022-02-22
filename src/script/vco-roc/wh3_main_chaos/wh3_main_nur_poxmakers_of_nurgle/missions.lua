@@ -9,7 +9,7 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO;
+			        type TODO FIXME;
 			    }
 
 				payload
@@ -28,9 +28,17 @@ local missions = {
 			primary_objectives_and_payload
 			{
 			    objective
-			    {
-			        type TODO;
-			    }
+                {
+                    type DESTROY_FACTION;
+
+                    faction wh3_main_tze_all_seeing_eye;
+                    faction wh3_main_tze_broken_wheel;
+                    faction wh3_main_tze_flaming_scribes;
+                    faction wh3_main_tze_oracles_of_tzeentch;
+                    faction wh3_main_tze_sarthoraels_watchers;
+
+                    confederation_valid;
+                }
 
 				payload
 				{
@@ -49,7 +57,12 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO;
+			        type TODO NOT_DONE_YET;
+			    }
+
+			    objective
+			    {
+			        type TODO NOT_DONE_YET;
 			    }
 
 				payload

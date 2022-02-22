@@ -2,14 +2,14 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_1_too_rich_to_walk;
+			victory_type vco_victory_type_alternative_1_the_maw_that_walks;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 			    objective
 			    {
-			        type TODO;
+			        type TODO FIXME;
 			    }
 
 				payload
@@ -22,14 +22,14 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_2_delicious_dragon_meat;
+			victory_type vco_victory_type_alternative_2_the_age_of_the_ogres;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 			    objective
 			    {
-			        type TODO;
+			        type TODO NOT_DONE_YET;
 			    }
 
 				payload
@@ -42,14 +42,14 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_3_overtyrants_reign;
+			victory_type vco_victory_type_alternative_3_todo;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 			    objective
 			    {
-			        type TODO;
+			        type TODO NOT_DEFINED;
 			    }
 
 				payload

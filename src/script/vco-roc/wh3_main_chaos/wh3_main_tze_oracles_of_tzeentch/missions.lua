@@ -8,9 +8,9 @@ local missions = {
 			primary_objectives_and_payload
 			{
 			    objective
-			    {
-			        type TODO;
-			    }
+				{
+					type TODO FIXME;
+				}
 
 				payload
 				{
@@ -29,7 +29,18 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO;
+			        type DESTROY_FACTION;
+
+                    faction wh3_main_cth_burning_wind_nomads;
+                    faction wh3_main_cth_celestial_loyalists;
+                    faction wh3_main_cth_dissenter_lords_of_jinshen;
+                    faction wh3_main_cth_imperial_wardens;
+                    faction wh3_main_cth_rebel_lords_of_nan_yang;
+                    faction wh3_main_cth_the_jade_custodians;
+                    faction wh3_main_cth_the_northern_provinces;
+                    faction wh3_main_cth_the_western_provinces;
+
+                    confederation_valid;
 			    }
 
 				payload
@@ -49,7 +60,14 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO;
+			        type DESTROY_FACTION;
+
+                    faction wh3_main_nur_bubonic_swarm;
+                    faction wh3_main_nur_maggoth_kin;
+                    faction wh3_main_nur_poxmakers_of_nurgle;
+                    faction wh3_main_nur_septic_claw;
+
+                    confederation_valid;
 			    }
 
 				payload

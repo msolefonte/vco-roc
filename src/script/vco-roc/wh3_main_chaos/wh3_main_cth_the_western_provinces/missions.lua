@@ -15,7 +15,7 @@ local missions = {
 
 			    objective
 			    {
-			        type TODO;
+			        type TODO NOT_DEFINED;
 			    }
 
 				payload
@@ -75,7 +75,7 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO;
+			        type TODO NOT_DEFINED;
 			    }
 
 				payload
