@@ -1,6 +1,6 @@
-## Daemons of Chaos
+# Daemons of Chaos
 
-### Legion of Chaos
+## Legion of Chaos
 
 * **Route I - TODO**
     * TODO
@@ -8,7 +8,7 @@
     * Destroy factions (For the Motherland!):
         * The Great Orthodoxy, Ursun Revivalists, Brotherhood of the Bear, Druzhina Enclave, Ropsmenn Clan and Ungol 
         Kindred
-    * Destroy factions (For the Tzarina!):
+    * Destroy factions (For the Tzarina!): 
         * The Ice Court
 * **Route III - Undivided**
     * TODO

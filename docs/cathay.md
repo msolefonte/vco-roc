@@ -1,6 +1,6 @@
-## Grand Cathay
+# Grand Cathay
 
-### Miao Ying: The Northern Provinces
+## Miao Ying: The Northern Provinces
 
 * **Route I - In Harmony**
     * Control provinces (Unify Grand Cathay):
@@ -13,10 +13,11 @@
         * Clan Eshin, Dissenter Lords of Jinshen, Rebel Lords of Nan-Yang, Oracles of Tzeentch and Sarthorael's Watchers
     * Build (The Great Bastion):
         * 3x Bastion Fortress
-* **Route III - TODO**
-    * TODO
+* **Route III - Nan-Gau-style Chicken**
+    * Destroy factions:
+        *  All-Seeing Eye, Broken Wheel, Flaming Scribes, Oracles of Tzeentch and Sarthorael's Watchers
 
-### Zhao Ming: The Western Provinces
+## Zhao Ming: The Western Provinces
 
 * **Route I - Iron into Gold**
     * Amass a minimum of 500048 gold

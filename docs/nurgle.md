@@ -1,6 +1,6 @@
-## Nurgle
+# Nurgle
 
-### Ku'gath Plaguefather: Poxmakers of Nurgle
+## Ku'gath Plaguefather: Poxmakers of Nurgle
 
 * **Route I - The Great Game**
     * Ensure at least 80% Nurgle corruption in 16 provinces (AT_LEAST_X_RELIGION_IN_ALL_PROVINCES)
