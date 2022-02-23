@@ -9,12 +9,26 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO NOT_DONE_YET;
+			        type CONTROL_N_PROVINCES_INCLUDING;
+			        total 8;
+
+                    province wh3_main_chaos_province_black_blood_pass;
+                    province wh3_main_chaos_province_dukhlys_forest;
+                    province wh3_main_chaos_province_eastern_oblast;
+                    province wh3_main_chaos_province_northern_oblast;
+                    province wh3_main_chaos_province_river_lynsk;
+                    province wh3_main_chaos_province_river_urskoy;
+                    province wh3_main_chaos_province_the_cursed_city;
+                    province wh3_main_chaos_province_troll_country;
 			    }
 
 			    objective
 			    {
-			        type TODO NOT_DONE_YET;
+			        type DESTROY_FACTION;
+
+                    faction wh3_main_ksl_the_great_orthodoxy;
+
+                    confederation_valid;
 			    }
 
 				payload
@@ -34,7 +48,26 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO NOT_DONE_YET;
+			        type DESTROY_FACTION;
+
+                    faction wh3_main_dae_daemon_prince;
+
+                    confederation_valid;
+			    }
+
+			    objective
+			    {
+			        type DESTROY_FACTION;
+
+                    faction wh_main_nor_aesling;
+                    faction wh_main_nor_baersonling;
+                    faction wh_main_nor_bjornling;
+                    faction wh_main_nor_graeling;
+                    faction wh_main_nor_sarl;
+                    faction wh_main_nor_skaeling;
+                    faction wh_dlc08_nor_vanaheimlings;
+
+                    confederation_valid;
 			    }
 
 				payload
@@ -54,7 +87,7 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO FIXME;
+			        type TODO WAIT_FOR_TOOLS;
 			    }
 
 				payload

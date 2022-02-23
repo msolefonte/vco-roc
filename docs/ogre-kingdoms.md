@@ -4,20 +4,20 @@
 
 * **Route I - Too Rich to Walk**
     * TODO Income goal
-* **Route II - Sweet and Sour Dragon**
+* **Route II - Overtyrant’s Reign** // TESTED
+    * Control provinces:
+        * Ancient Giant Lands, Bone Road, Gash Kadrak, Ice Pass, Ivory Road, Mountains of Mourn and Path to the East
+        * _NOTE:_ Wyrm Pass should also be included, but the key is not available
+* **Route III - Sweet and Sour Dragon** // TESTED
     * Destroy factions:
         * Burning Wind Nomads, Celestial Loyalists, Dissenter Lords of Jinshen, Imperial Wardens, Rebel Lords of 
         Nan-Yang, The Jade Custodians, The Northern Provinces and The Western Provinces 
-* **Route III - Overtyrant’s Reign**
-    * Control provinces:
-        * Ancient Giant Lands, Bone Road, Gash Kadrak, Ice Pass, Ivory Road, Mountains of Mourn, Path to the East and 
-        Wyrm Pass
 
 ## Skrag the Slaughterer: Disciples of the Maw
 
 * **Route I - The Maw-that-Walks**
     * Offer 200 food to the Great Maw
-* **Route II - The Age of the Ogres**
+* **Route II - The Age of the Ogres** // TESTED
     * Control provinces:
         * Hochland, Middenland, Nordland, Northern Grey Mountains, Ostermark, Ostland, Reikland, Stirland, Southern Grey 
         Mountains, Sylvania, Talabecland, The Wasteland, The Witch's Wood and Wissenland

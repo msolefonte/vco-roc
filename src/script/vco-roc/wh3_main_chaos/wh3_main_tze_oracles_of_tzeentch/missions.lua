@@ -9,7 +9,7 @@ local missions = {
 			{
 			    objective
 				{
-					type TODO FIXME;
+					type TODO WAIT_FOR_TOOLS;
 				}
 
 				payload

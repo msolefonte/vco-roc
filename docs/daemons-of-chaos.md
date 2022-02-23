@@ -4,10 +4,10 @@
 
 * **Route I - Undivided**
     * TODO
-* **Route II - Succeeding You**
+* **Route II - Succeeding You** // TESTED
     * Destroy factions (For the Motherland!):
-        * The Great Orthodoxy, Ursun Revivalists, Brotherhood of the Bear, Druzhina Enclave, Ropsmenn Clan and Ungol
-        Kindred
+        * Brotherhood of the Bear, Druzhina Enclave, Ropsmenn Clan, The Great Orthodoxy, Ungol Kindred and Ursun 
+        Revivalists, 
     * Destroy factions (For the Tzarina!):
         * The Ice Court
 * **Route III - Peacekeeping Mission**

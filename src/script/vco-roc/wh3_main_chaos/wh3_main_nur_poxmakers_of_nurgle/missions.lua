@@ -9,7 +9,7 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO FIXME;
+			        type TODO WAIT_FOR_TOOLS;
 			    }
 
 				payload
@@ -56,14 +56,30 @@ local missions = {
 			primary_objectives_and_payload
 			{
 			    objective
-			    {
-			        type TODO NOT_DONE_YET;
-			    }
+				{
+					type RAZE_OR_SACK_N_DIFFERENT_SETTLEMENTS_INCLUDING;
+					total 1;
+
+					region wh3_main_chaos_region_altdorf;
+				}
 
 			    objective
-			    {
-			        type TODO NOT_DONE_YET;
-			    }
+                {
+                    type DESTROY_FACTION;
+
+                    faction wh_main_emp_hochland;
+                    faction wh_main_emp_marienburg;
+                    faction wh_main_emp_middenland;
+                    faction wh_main_emp_nordland;
+                    faction wh_main_emp_ostermark;
+                    faction wh_main_emp_ostland;
+                    faction wh_main_emp_stirland;
+                    faction wh_main_emp_empire;
+                    faction wh_main_emp_talabecland;
+                    faction wh_main_emp_wissenland;
+
+                    confederation_valid;
+                }
 
 				payload
 				{

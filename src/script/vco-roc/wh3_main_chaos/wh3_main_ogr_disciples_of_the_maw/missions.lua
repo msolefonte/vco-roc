@@ -7,9 +7,9 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-			    objective
+                objective
 			    {
-			        type TODO FIXME;
+			        type TODO WAIT_FOR_TOOLS;
 			    }
 
 				payload
@@ -27,10 +27,25 @@ local missions = {
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
-			    objective
-			    {
-			        type TODO NOT_DONE_YET;
-			    }
+			     objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 14;
+
+					province wh3_main_chaos_province_hochland;
+					province wh3_main_chaos_province_middenland;
+                    province wh3_main_chaos_province_nordland;
+					province wh3_main_chaos_province_northern_grey_mountains;
+					province wh3_main_chaos_province_ostermark;
+					province wh3_main_chaos_province_ostland;
+					province wh3_main_chaos_province_reikland;
+					province wh3_main_chaos_province_southern_grey_mountains;
+					province wh3_main_chaos_province_sylvania;
+					province wh3_main_chaos_province_talabecland;
+					province wh3_main_chaos_province_the_wasteland;
+					province wh3_main_chaos_province_the_witchs_wood;
+					province wh3_main_chaos_province_wissenland;
+				}
 
 				payload
 				{

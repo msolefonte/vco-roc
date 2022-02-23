@@ -9,7 +9,7 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO FIXME;
+			        type TODO WAIT_FOR_TOOLS;
 			    }
 
 				payload
@@ -29,7 +29,7 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO FIXME;
+			        type TODO WAIT_FOR_TOOLS;
 			    }
 
 				payload
@@ -49,7 +49,14 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO NOT_DONE_YET;
+			        type DESTROY_FACTION;
+
+                    faction wh3_main_sla_exquisite_pain;
+                    faction wh3_main_sla_rapturous_excess;
+                    faction wh3_main_sla_seducers_of_slaanesh;
+                    faction wh3_main_sla_subtle_torture;
+
+                    confederation_valid;
 			    }
 
 				payload

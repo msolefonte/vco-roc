@@ -9,7 +9,7 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO FIXME;
+			        type TODO WAIT_FOR_TOOLS;
 			    }
 
 				payload
@@ -29,7 +29,14 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO NOT_DONE_YET;
+			        type DESTROY_FACTION;
+
+                    faction wh3_main_kho_brazen_throne;
+                    faction wh3_main_kho_crimson_skull;
+                    faction wh3_main_kho_exiles_of_khorne;
+                    faction wh3_main_kho_karneths_sons;
+
+                    confederation_valid;
 			    }
 
 				payload
@@ -49,7 +56,7 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO FIXME;
+			        type TODO WAIT_FOR_TOOLS;
 			    }
 
 				payload
