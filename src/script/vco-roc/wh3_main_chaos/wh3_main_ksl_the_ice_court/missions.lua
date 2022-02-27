@@ -22,15 +22,6 @@ local missions = {
                     province wh3_main_chaos_province_troll_country;
 			    }
 
-			    objective
-			    {
-			        type DESTROY_FACTION;
-
-                    faction wh3_main_ksl_the_great_orthodoxy;
-
-                    confederation_valid;
-			    }
-
 				payload
 				{
 					game_victory;
@@ -87,7 +78,10 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO WAIT_FOR_TOOLS;
+			        type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
+			        total 600;
+
+			        pooled_resource wh3_main_ksl_followers;
 			    }
 
 				payload

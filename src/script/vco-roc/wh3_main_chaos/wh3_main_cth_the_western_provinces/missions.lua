@@ -39,7 +39,7 @@ local missions = {
 					total 8;
 
 					province wh3_main_chaos_province_broken_lands_of_tian_li;
-					province wh3_main_chaos_province_celestial_riverlands,
+					province wh3_main_chaos_province_celestial_riverlands;
                     province wh3_main_chaos_province_forests_of_the_moon;
 					province wh3_main_chaos_province_gunpowder_road;
 					province wh3_main_chaos_province_imperial_road;
@@ -68,14 +68,32 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_3_todo;
+			victory_type vco_victory_type_alternative_3_dont_thread_on_ming;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 			    objective
+				{
+					type CONTROL_N_PROVINCES_INCLUDING;
+					total 8;
+
+					province wh3_main_chaos_province_ancient_giant_lands;
+					province wh3_main_chaos_province_bone_road;
+                    province wh3_main_chaos_province_gash_kadrak;
+					province wh3_main_chaos_province_ice_pass;
+					province wh3_main_chaos_province_ivory_road;
+					province wh3_main_chaos_province_mountains_of_mourn;
+					province wh3_main_chaos_province_path_to_the_east;
+				}
+
+				objective
 			    {
-			        type TODO NOT_DEFINED;
+			        type DESTROY_FACTION;
+
+                    faction wh3_main_ogr_goldtooth;
+
+                    confederation_valid;
 			    }
 
 				payload

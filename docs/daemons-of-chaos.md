@@ -5,10 +5,10 @@
 * **Route I - Undivided**
     * TODO
 * **Route II - Succeeding You** // TESTED
-    * Destroy factions (For the Motherland!):
+    * Destroy factions:
         * Brotherhood of the Bear, Druzhina Enclave, Ropsmenn Clan, The Great Orthodoxy, Ungol Kindred and Ursun 
         Revivalists, 
-    * Destroy factions (For the Tzarina!):
+    * Destroy factions:
         * The Ice Court
 * **Route III - Peacekeeping Mission**
     * Make alliances (Unify all Chaos Gods under the same alliance):

@@ -9,7 +9,10 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO WAIT_FOR_TOOLS;
+			        type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
+			        total 600;
+
+			        pooled_resource wh3_main_ksl_followers;
 			    }
 
 				payload
@@ -40,15 +43,6 @@ local missions = {
                     province wh3_main_chaos_province_river_urskoy;
                     province wh3_main_chaos_province_the_cursed_city;
                     province wh3_main_chaos_province_troll_country;
-			    }
-
-			    objective
-			    {
-			        type DESTROY_FACTION;
-
-                    faction wh3_main_ksl_the_ice_court;
-
-                    confederation_valid;
 			    }
 
 				payload

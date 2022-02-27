@@ -29,7 +29,10 @@ local missions = {
 			{
 			    objective
 			    {
-			        type TODO WAIT_FOR_TOOLS;
+			        type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
+			        total 88888;
+
+			        pooled_resource wh3_main_kho_skulls;
 			    }
 
 				payload
