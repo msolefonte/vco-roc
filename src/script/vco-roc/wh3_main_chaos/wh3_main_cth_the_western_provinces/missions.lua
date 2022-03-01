@@ -14,9 +14,18 @@ local missions = {
 				}
 
 			    objective
-			    {
-			        type TODO NOT_DEFINED;
-			    }
+                {
+                    override_text mission_text_text_vco_roc_cth_the_western_provinces_caravans_0_25;
+                    type SCRIPTED;
+                    script_key vco_roc_cth_the_western_provinces_caravans;
+                }
+
+                objective
+                {
+                    override_text mission_text_text_vco_roc_cth_the_western_provinces_goods_0_25;
+                    type SCRIPTED;
+                    script_key vco_roc_cth_the_western_provinces_goods;
+                }
 
 				payload
 				{

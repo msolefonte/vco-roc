@@ -19,9 +19,10 @@
 
 ## Zhao Ming: The Western Provinces
 
-* **Route I - Iron into Gold**
-    * Amass a minimum of 500048 gold
-    * TODO
+* **Route I - Iron into Gold** // TESTED
+    * Amass a Treasury of 500048
+    * Complete the Ivory Road with at least 9 caravans
+    * Trade a minimum of 13140 goods with the west
 * **Route II - In Harmony** // TESTED
     * Control provinces (Unify Grand Cathay):
         * Broken Lands of Tian Li, Celestial Riverlands, Forests of the Moon, Gunpowder Road, Imperial Road, Lands of 
