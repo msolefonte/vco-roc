@@ -8,9 +8,11 @@ local missions = {
 			primary_objectives_and_payload
 			{
                 objective
-			    {
-			        type TODO WAIT_FOR_TOOLS;
-			    }
+                {
+                    override_text mission_text_text_vco_roc_ogr_the_maw_that_walks_0;
+                    type SCRIPTED;
+                    script_key vco_roc_ogr_the_maw_that_walks;
+                }
 
 				payload
 				{
