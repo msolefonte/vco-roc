@@ -1,3 +1,24 @@
+-- [LIBRARY] --
+
+local function _vco_roc_count_regions_with_highest_corruption_being(corruption_key)
+    local regions_count = 0;
+
+    local province_list = cm:model():world():province_list();
+    for i = 0, province_list:num_items() - 1 do
+        local current_province = province_list:item_at(i);
+        for i, region in model_pairs(current_province:regions()) do
+            local highest_corruption_in_region = cm:get_highest_corruption_in_region(region) or '';
+            if highest_corruption_in_region == corruption_key then
+                regions_count = regions_count + 1;
+            end;
+        end;
+    end;
+
+    return regions_count;
+end;
+
+-- [CHECKS] --
+
 local function check_vco_roc_cth_the_western_provinces_caravans(faction_key)
     local REQUIRED_NUM_CARAVANS_COMPLETED_VICTORY = 9;
     local num_caravans_completed = cm:get_saved_value("caravans_completed_" .. faction_key) or 0;
@@ -42,6 +63,21 @@ local function check_vco_roc_cth_the_western_provinces_goods(faction_key)
     end
 end
 
+local function check_vco_roc_daemons_of_chaos_the_great_game(faction_key, corruption_key)
+    local REQUIRED_CORRUPTED_REGIONS_VICTORY = 50;
+    local corrupted_regions = _vco_roc_count_regions_with_highest_corruption_being(corruption_key);
+
+    if corrupted_regions < REQUIRED_CORRUPTED_REGIONS_VICTORY then
+        cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", "mission_text_text_vco_roc_the_great_game_completed_"..corrupted_regions);
+        m:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", false);
+    else
+        cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", "mission_text_text_vco_roc_the_great_game_completed");
+        m:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", true);
+    end;
+end
+
+-- [LISTENERS] --
+
 function add_listeners()
     out("## Adding Victory Conditions Overhaul - Realm of Chaos Listeners ##");
 
@@ -55,6 +91,30 @@ function add_listeners()
         function(context)
             check_vco_roc_cth_the_western_provinces_caravans(context:faction():name());
             check_vco_roc_cth_the_western_provinces_goods(context:faction():name());
+        end,
+        true
+    );
+
+    out("#### VCO-ROC DAEMONS OF CHAOS ####");
+    core:add_listener(
+        "vco_roc_cth_the_western_provinces",
+        "FactionTurnStart",
+        function(context)
+            return context:faction():is_human();
+        end,
+        function(context)
+            local corruption_key = "";
+            if context:faction():culture() == "wh3_main_kho_khorne" then
+                corruption_key = "wh3_main_corruption_khorne";
+            elseif context:faction():culture() == "wh3_main_nur_nurgle" then
+                corruption_key = "wh3_main_corruption_nurgle";
+            elseif context:faction():culture() == "wh3_main_sla_slaanesh" then
+                corruption_key = "wh3_main_corruption_slaanesh";
+            elseif context:faction():culture() == "wh3_main_tze_tzeentch" then
+                corruption_key = "wh3_main_corruption_tzeentch";
+            end;
+
+            check_vco_roc_daemons_of_chaos_the_great_game(context:faction():name(), corruption_key);
         end,
         true
     );

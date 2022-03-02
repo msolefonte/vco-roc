@@ -2,8 +2,8 @@
 
 ## Kairos Fateweaver: Oracles of Tzeentch
 
-* **Route I - The Great Game**
-    * Ensure at least 80% Tzeentch corruption in 16 provinces (AT_LEAST_X_RELIGION_IN_ALL_PROVINCES)
+* **Route I - The Great Game** // TESTED
+    * Achieve the highest corruption in a minimum of 50 provinces
 * **Route II - Not So Grand** // TESTED
     * Destroy factions:
         * Burning Wind Nomads, Celestial Loyalists, Dissenter Lords of Jinshen, Imperial Wardens, Rebel Lords of 
