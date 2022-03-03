@@ -94,6 +94,7 @@ local missions = {
 					province wh3_main_chaos_province_ivory_road;
 					province wh3_main_chaos_province_mountains_of_mourn;
 					province wh3_main_chaos_province_path_to_the_east;
+					province wh3_main_chaos_province_the_great_maw;
 				}
 
 				objective

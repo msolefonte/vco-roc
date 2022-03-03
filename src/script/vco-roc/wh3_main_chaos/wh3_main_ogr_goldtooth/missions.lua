@@ -13,10 +13,17 @@ local missions = {
 					total 500000;
 				}
 
+				objective
+				{
+				    type TRADE_INCOME_AT_LEAST_X;
+				    total 2500;
+				}
+
 			    objective
-			    {
-			        type TODO NOT_DEFINED;
-			    }
+				{
+				    type MAINTAIN_TRADE_WITH_N_FACTIONS;
+				    total 6;
+				}
 
 				payload
 				{
@@ -45,6 +52,7 @@ local missions = {
 					province wh3_main_chaos_province_ivory_road;
 					province wh3_main_chaos_province_mountains_of_mourn;
 					province wh3_main_chaos_province_path_to_the_east;
+					province wh3_main_chaos_province_the_great_maw;
 				}
 
 				payload

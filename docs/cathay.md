@@ -31,7 +31,7 @@
         * Central Great Bastion, Eastern Great Bastion and Western Great Bastion
 * **Route III - Don't Thread on Ming** // TESTED
     * Control provinces:
-        * Ancient Giant Lands, Bone Road, Gash Kadrak, Ice Pass, Ivory Road, Mountains of Mourn and Path to the East
-        * _NOTE:_ Wyrm Pass should also be included, but the key is not available
+        * Ancient Giant Lands, Bone Road, Gash Kadrak, Ice Pass, Ivory Road, Mountains of Mourn, Path to the East and
+        Wyrm Pass
     * Destroy factions:
         * Goldtooth
