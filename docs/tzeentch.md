@@ -3,7 +3,7 @@
 ## Kairos Fateweaver: Oracles of Tzeentch
 
 * **Route I - The Great Game** // TESTED
-    * Achieve the highest corruption in a minimum of 50 provinces
+    * Achieve the highest corruption in a minimum of 50 regions
 * **Route II - Not So Grand** // TESTED
     * Destroy factions:
         * Burning Wind Nomads, Celestial Loyalists, Dissenter Lords of Jinshen, Imperial Wardens, Rebel Lords of 
