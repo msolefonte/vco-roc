@@ -31,10 +31,11 @@
 * **Route I - Hibernate until Chaos Dwarfs are out** // TESTED
     * Control provinces:
         * The Blasted Wastes, The Haunted Forest, The Howling Wastes, The Plain of Zharr, The Wolf Lands and Zorn Uzkul
-* **Route II - Bear Hug**
-    * Make an alliance with The Ice Court (MAKE_ALLIANCE)
-    * Make a trade agreement with The Ice Court (MAKE_TRADE_AGREEMENT)
-    * Ensure Kislev is safe (NO_MORE_THAN_X_RELIGION_IN_PROVINCES)
-    * TODO
-* **Route III - TODO**
-    *
+* **Route II - Ursun's Sacred Land** // TESTED
+        * Black Blood Pass, Dukhlys Forest, Eastern Oblast, Northern Oblast, River Lynsk, River Urskoy, The Cursed City 
+        and Troll Country
+* **Route III - Unbearable In-law** // TESTED
+    * Destroy factions:
+        * Legion of Chaos
+    * Make an alliance with The Ice Court
+    * Make a trade agreement with The Ice Court

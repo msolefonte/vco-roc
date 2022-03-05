@@ -30,14 +30,24 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_2_bear_hug;
+			victory_type vco_victory_type_alternative_2_ursun_sacred_land;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 			    objective
 			    {
-			        type TODO NOT_DEFINED;
+			        type CONTROL_N_PROVINCES_INCLUDING;
+			        total 8;
+
+                    province wh3_main_chaos_province_black_blood_pass;
+                    province wh3_main_chaos_province_dukhlys_forest;
+                    province wh3_main_chaos_province_eastern_oblast;
+                    province wh3_main_chaos_province_northern_oblast;
+                    province wh3_main_chaos_province_river_lynsk;
+                    province wh3_main_chaos_province_river_urskoy;
+                    province wh3_main_chaos_province_the_cursed_city;
+                    province wh3_main_chaos_province_troll_country;
 			    }
 
 				payload
@@ -50,14 +60,32 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_3_todo;
+			victory_type vco_victory_type_alternative_3_unbearable_in_law;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
 			    objective
 			    {
-			        type TODO NOT_DEFINED;
+			        type DESTROY_FACTION;
+
+                    faction wh3_main_dae_daemon_prince;
+
+                    confederation_valid;
+			    }
+
+			    objective
+			    {
+			        type MAKE_ALLIANCE;
+
+			        faction wh3_main_ksl_the_ice_court;
+			    }
+
+			    objective
+			    {
+			        type MAKE_TRADE_AGREEMENT;
+
+			        faction wh3_main_ksl_the_ice_court;
 			    }
 
 				payload
