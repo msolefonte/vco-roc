@@ -2,14 +2,49 @@ local missions = {
     [[
  		mission
 		{
-			victory_type vco_victory_type_alternative_1_todo;
+			victory_type vco_victory_type_alternative_1_blessed_by_the_gods;
 			key wh_main_long_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
+                objective
+			    {
+			        type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
+			        total 3080;
+
+			        pooled_resource wh3_main_dae_undivided_points;
+			    }
+
 			    objective
 			    {
-			        type TODO NOT_DEFINED;
+			        type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
+			        total 3080;
+
+			        pooled_resource wh3_main_dae_khorne_points;
+			    }
+
+			    objective
+			    {
+			        type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
+			        total 3080;
+
+			        pooled_resource wh3_main_dae_nurgle_points;
+			    }
+
+			    objective
+			    {
+			        type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
+			        total 3080;
+
+			        pooled_resource wh3_main_dae_slaanesh_points;
+			    }
+
+			    objective
+			    {
+			        type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
+			        total 3080;
+
+			        pooled_resource wh3_main_dae_tzeentch_points;
 			    }
 
 				payload
@@ -67,19 +102,51 @@ local missions = {
 			{
 			    objective
 			    {
-			        type MAINTAIN_N_ALLIANCES;
-			        total 4;
+			        type DESTROY_FACTION;
 
-			        faction wh3_main_kho_exiles_of_khorne;
-			        faction wh3_main_nur_poxmakers_of_nurgle;
-			        faction wh3_main_tze_oracles_of_tzeentch;
-			        faction wh3_main_sla_seducers_of_slaanesh;
+                    faction wh3_main_kho_exiles_of_khorne;
+
+                    faction wh3_main_nur_poxmakers_of_nurgle;
+
+                    faction wh3_main_tze_oracles_of_tzeentch;
+
+                    faction wh3_main_sla_seducers_of_slaanesh;
+
+                    confederation_valid;
 			    }
 
 			    objective
 			    {
-			        type TODO WAIT_FOR_TOOLS;
+			        type HAVE_N_AGENTS_OF_TYPE;
+                    total 1;
+
+                    agent_subtype wh3_main_kho_exalted_bloodthirster;
 			    }
+
+                objective
+			    {
+			        type HAVE_N_AGENTS_OF_TYPE;
+                    total 1;
+
+                    agent_subtype wh3_main_nur_exalted_great_unclean_one_nurgle;
+			    }
+
+			    objective
+			    {
+			        type HAVE_N_AGENTS_OF_TYPE;
+                    total 1;
+
+                    agent_subtype wh3_main_sla_exalted_keeper_of_secrets_slaanesh;
+			    }
+
+                objective
+			    {
+			        type HAVE_N_AGENTS_OF_TYPE;
+                    total 1;
+
+                    agent_subtype wh3_main_tze_exalted_lord_of_change_tzeentch;
+			    }
+
 
 				payload
 				{
