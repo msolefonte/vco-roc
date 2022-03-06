@@ -27,7 +27,8 @@ local missions = {
 
 				payload
 				{
-					game_victory;
+                    money 50000;
+                    game_victory;
 				}
 			}
 		}
@@ -57,7 +58,8 @@ local missions = {
 
 				payload
 				{
-					game_victory;
+                    money 50000;
+                    game_victory;
 				}
 			}
 		}
@@ -88,7 +90,8 @@ local missions = {
 
 				payload
 				{
-					game_victory;
+                    money 50000;
+                    game_victory;
 				}
 			}
 		}
