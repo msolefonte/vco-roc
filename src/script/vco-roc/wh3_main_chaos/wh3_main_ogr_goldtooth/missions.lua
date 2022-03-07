@@ -19,12 +19,6 @@ local missions = {
 				    total 2500;
 				}
 
-			    objective
-				{
-				    type MAINTAIN_TRADE_WITH_N_FACTIONS;
-				    total 6;
-				}
-
 				payload
 				{
                     money 50000;

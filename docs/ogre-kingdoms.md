@@ -5,7 +5,7 @@
 * **Route I - Too Rich to Walk** // TESTED
     * Amass a Treasury of 500000
     * Have a trading income of at least 2500
-    * Be at trade with at least 6 factions
+    * DISABLED Be at trade with at least 6 factions (Temporarily disabled because as it causes bugs)
 * **Route II - Overtyrant’s Reign** // TESTED
     * Control provinces:
         * Ancient Giant Lands, Bone Road, Gash Kadrak, Ice Pass, Ivory Road, Mountains of Mourn, Path to the East and

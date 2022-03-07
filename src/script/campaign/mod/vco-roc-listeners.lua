@@ -27,7 +27,7 @@ local function check_vco_roc_cth_the_western_provinces_caravans(faction_key)
         cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_cth_the_western_provinces_caravans", "mission_text_text_vco_roc_cth_the_western_provinces_caravans_"..num_caravans_completed);
     else
         cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_cth_the_western_provinces_caravans", "mission_text_text_vco_roc_cth_the_western_provinces_caravans");
-        m:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_cth_the_western_provinces_caravans", true);
+        cm:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_cth_the_western_provinces_caravans", true);
     end;
 end
 
@@ -40,7 +40,7 @@ local function check_vco_roc_cth_the_western_provinces_goods(faction_key)
         cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_cth_the_western_provinces_goods", "mission_text_text_vco_roc_cth_the_western_provinces_goods_"..percentage_completed);
     else
         cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_cth_the_western_provinces_goods", "mission_text_text_vco_roc_cth_the_western_provinces_goods");
-        m:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_cth_the_western_provinces_goods", true);
+        cm:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_cth_the_western_provinces_goods", true);
     end;
 end
 
@@ -50,10 +50,10 @@ local function check_vco_roc_daemons_of_chaos_the_great_game(faction_key, corrup
 
     if corrupted_regions < REQUIRED_CORRUPTED_REGIONS_VICTORY then
         cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", "mission_text_text_vco_roc_the_great_game_completed_"..corrupted_regions);
-        m:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", false);
+        cm:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", false);
     else
         cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", "mission_text_text_vco_roc_the_great_game_completed");
-        m:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", true);
+        cm:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", true);
     end;
 end
 
@@ -66,7 +66,7 @@ local function check_vco_roc_ogre_kingdoms_the_maw_that_walks(context)
         cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_ogr_the_maw_that_walks", "mission_text_text_vco_roc_ogr_the_maw_that_walks_"..percentage_completed);
     else
         cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_ogr_the_maw_that_walks", "mission_text_text_vco_roc_ogr_the_maw_that_walks");
-        m:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_ogr_the_maw_that_walks", true);
+        cm:complete_scripted_mission_objective("wh_main_long_victory", "vco_roc_ogr_the_maw_that_walks", true);
     end;
 end
 
@@ -118,7 +118,7 @@ function add_listeners()
         "vco_roc_ogr_meat_checks",
         "ScriptEventTrackedPooledResourceChanged",
         function(context)
-            return context:faction():is_human() and context:resource():key() == "wh3_main_ogr_meat" and context:factor():key() == "offered_to_the_great_maw";
+            return context:faction():is_human() and context:faction():name() == "wh3_main_ogr_disciples_of_the_maw" and context:resource():key() == "wh3_main_ogr_meat" and context:factor():key() == "offered_to_the_great_maw";
         end,
         function(context)
             check_vco_roc_ogre_kingdoms_the_maw_that_walks(context);
