@@ -59,9 +59,10 @@ local missions = {
 			primary_objectives_and_payload
 			{
 			    objective
-			    {
-			        type TODO WAIT_FOR_TOOLS;
-			    }
+                {
+                    type MAINTAIN_N_CLIENT_STATES;
+                    total 6;
+                }
 
 				payload
 				{
