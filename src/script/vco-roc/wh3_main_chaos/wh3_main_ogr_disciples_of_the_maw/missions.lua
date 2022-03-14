@@ -33,7 +33,7 @@ local missions = {
 			     objective
 				{
 					type CONTROL_N_PROVINCES_INCLUDING;
-					total 14;
+					total 13;
 
 					province wh3_main_chaos_province_hochland;
 					province wh3_main_chaos_province_middenland;
