@@ -1,5 +1,7 @@
 # References and Jokes
 
+Note not all of them are updated.
+
 ## Cathay
 
 * **In Harmony:** Simple reference to the core of the faction.
