@@ -32,8 +32,8 @@
     * Control provinces:
         * The Blasted Wastes, The Haunted Forest, The Howling Wastes, The Plain of Zharr, The Wolf Lands and Zorn Uzkul
 * **Route II - Ursun's Sacred Land**
-        * Black Blood Pass, Dukhlys Forest, Eastern Oblast, Northern Oblast, River Lynsk, River Urskoy, The Cursed City 
-        and Troll Country
+    * Control provinces:
+        * Black Blood Pass, Dukhlys Forest, Eastern Oblast, Northern Oblast, River Lynsk, River Urskoy, The Cursed City and Troll Country
 * **Route III - Unbearable In-law**
     * Destroy factions:
         * Legion of Chaos
