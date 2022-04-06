@@ -1,8 +1,14 @@
-<TAGS>
+[![Steam Workshop Subscribers](https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F2789843402%2Fsubscriptions-text)](https://steamcommunity.com/sharedfiles/filedetails/?id=2789843402)
+[![Steam Workshop Favorites](https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F2789843402%2Ffavourites-text)](https://steamcommunity.com/sharedfiles/filedetails/?id=2789843402)
 
 # Victory Conditions Overhaul - Realms of Chaos
 
-<TAGS>
+[![GitHub release](https://img.shields.io/github/release/msolefonte/vco-roc.svg?style=flat)](https://GitHub.com/msolefonte/vco-roc/releases/)
+[![Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dwolfylpdc%26type%3Dpatrons&style=flat)](https://www.patreon.com/wolfylpdc)
+[![GitHub license](https://img.shields.io/github/license/msolefonte/vco-roc?style=flat)](https://github.com/msolefonte/vco-roc/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+
+[Steam Workshop Mod Link](https://steamcommunity.com/sharedfiles/filedetails/?id=2789843402)
 
 Realm of Chaos submod for Victory Conditions Overhaul, Total War: Warhammer III.
 
