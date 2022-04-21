@@ -33,7 +33,7 @@ local missions = {
 			    objective
 			    {
 			        type HAVE_AT_LEAST_X_OF_A_POOLED_RESOURCE;
-			        total 20000;
+			        total 88888;
 
 			        pooled_resource wh3_main_kho_skulls;
 			    }

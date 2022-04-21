@@ -50,7 +50,6 @@ local function check_vco_roc_daemons_of_chaos_the_great_game(faction_key, corrup
 
     if corrupted_regions < REQUIRED_CORRUPTED_REGIONS_VICTORY then
         cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", "mission_text_text_vco_roc_the_great_game_completed_"..corrupted_regions);
-        cm:complete_scripted_mission_objective(faction_key, "wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", false);
     else
         cm:set_scripted_mission_text("wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", "mission_text_text_vco_roc_the_great_game_completed");
         cm:complete_scripted_mission_objective(faction_key, "wh_main_long_victory", "vco_roc_"..faction_key.."_the_great_game", true);
