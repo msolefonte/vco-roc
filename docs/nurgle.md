@@ -3,7 +3,7 @@
 ## Ku'gath Plaguefather: Poxmakers of Nurgle
 
 * **Route I - The Great Game**
-    * Achieve the highest corruption in a minimum of 50 regions
+    * Achieve the highest corruption in a minimum of 100 regions
 * **Route II - Inevitable**
     * Destroy factions:
         *  All-Seeing Eye, Broken Wheel, Flaming Scribes, Oracles of Tzeentch and Sarthorael's Watchers
