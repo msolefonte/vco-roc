@@ -14,7 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Skulls required by Skarbrand increased from 20000 to 88888
 - Fixed a bug that caused the Realms of Chaos route (Nurgle, Slaanesh, Tzeentch) to be unachievable
 
-## [1.1.0] - TBA
+## [1.1.0] - 11.08.2022
 
 - The Great Game (Nurgle, Slaanesh, Tzeentch) and Blood for the Blood God (Khorne) routes modified
   - Now it is required to achieve the highest corruption in 100 regions instead of 50
