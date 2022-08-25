@@ -15,16 +15,16 @@ local missions = {
 
 			    objective
                 {
-                    override_text mission_text_text_vco_roc_cth_the_western_provinces_caravans_0;
+                    override_text mission_text_text_vco_cth_the_western_provinces_caravans_0;
                     type SCRIPTED;
-                    script_key vco_roc_cth_the_western_provinces_caravans;
+                    script_key vco_cth_the_western_provinces_caravans;
                 }
 
                 objective
                 {
-                    override_text mission_text_text_vco_roc_cth_the_western_provinces_goods_0;
+                    override_text mission_text_text_vco_cth_the_western_provinces_goods_0;
                     type SCRIPTED;
-                    script_key vco_roc_cth_the_western_provinces_goods;
+                    script_key vco_cth_the_western_provinces_goods;
                 }
 
 				payload

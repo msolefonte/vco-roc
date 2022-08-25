@@ -9,9 +9,9 @@ local missions = {
 			{
                 objective
                 {
-                    override_text mission_text_text_vco_roc_ogr_the_maw_that_walks_0;
+                    override_text mission_text_text_vco_ogr_the_maw_that_walks_0;
                     type SCRIPTED;
-                    script_key vco_roc_ogr_the_maw_that_walks;
+                    script_key vco_ogr_the_maw_that_walks;
                 }
 
 				payload

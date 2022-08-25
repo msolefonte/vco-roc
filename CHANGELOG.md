@@ -20,3 +20,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Now it is required to achieve the highest corruption in 100 regions instead of 50
 - Treasure increase after completing a route reduced from 50000 to 15000
 - Updated CHANGELOG.md format
+
+## [1.1.1] - 25.08.2022
+
+- Removed database, text and listeners
+- Code has been ported into VCO Framework to work towards unification
