@@ -23,7 +23,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.1.1] - 25.08.2022
 
-- Ported code from VCO Realms of Chaos to work towards unification
-- Technical
-  - Replaced binaries for TSVs for database backups
-  - Updated CHANGELOG.md format
+- Removed database, text and listeners
+- Code has been ported into VCO Framework to work towards unification
