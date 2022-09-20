@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_1_too_rich_to_walk;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -31,7 +31,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_2_overtyrants_reign;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -62,7 +62,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_3_sweet_and_sour_dragon;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

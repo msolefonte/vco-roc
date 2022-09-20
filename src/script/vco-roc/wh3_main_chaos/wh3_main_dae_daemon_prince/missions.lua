@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_1_blessed_by_the_gods;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -59,7 +59,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_2_succeeding_you;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -98,7 +98,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_3_peacekeeping_mission;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

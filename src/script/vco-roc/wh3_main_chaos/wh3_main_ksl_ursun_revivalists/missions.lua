@@ -3,7 +3,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_1_ursun_chaos_dwarfs;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -32,7 +32,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_2_ursun_sacred_land;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{
@@ -63,7 +63,7 @@ local missions = {
  		mission
 		{
 			victory_type vco_victory_type_alternative_3_unbearable_in_law;
-			key wh_main_long_victory;
+			key wh_main_short_victory;
 			issuer CLAN_ELDERS;
 			primary_objectives_and_payload
 			{

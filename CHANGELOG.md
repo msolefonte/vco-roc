@@ -25,3 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Removed database, text and listeners
 - Code has been ported into VCO Framework to work towards unification
+
+## [1.1.2] - 20.09.2022
+
+- Fix scripts broken with 1.1.1

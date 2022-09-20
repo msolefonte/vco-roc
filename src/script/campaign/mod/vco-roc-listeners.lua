@@ -1,11 +1,11 @@
 -- UTILS --
 
 local function complete_mission(faction_name, script_key)
-  cm:complete_scripted_mission_objective(faction_name, "wh_main_long_victory", script_key, true);
+  cm:complete_scripted_mission_objective(faction_name, "wh_main_short_victory", script_key, true);
 end
 
 local function set_mission_text(script_key, text_key)
-  cm:set_scripted_mission_text("wh_main_long_victory", script_key, "mission_text_text_" .. text_key);
+  cm:set_scripted_mission_text("wh_main_short_victory", script_key, "mission_text_text_" .. text_key);
 end
 
 -- GENERIC --
